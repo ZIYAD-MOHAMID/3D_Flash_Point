@@ -32,27 +32,27 @@ let dz = 1.2;
 let angle = 0;
 
 //THE CUBE
-// const fs = [
-//   [0, 1, 2, 3],
-//   [0, 4, 7, 3],
-//   [4, 5, 6, 7],
-//   [1, 5, 6, 2],
-// ];
-// const vs = [
-//   { x: 0.25, y: 0.25, z: 0.25 },
-//   { x: -0.25, y: 0.25, z: 0.25 },
-//   { x: -0.25, y: -0.25, z: 0.25 },
-//   { x: 0.25, y: -0.25, z: 0.25 },
+const fs = [
+  [0, 1, 2, 3],
+  [0, 4, 7, 3],
+  [4, 5, 6, 7],
+  [1, 5, 6, 2],
+];
+const vs = [
+  { x: 0.25, y: 0.25, z: 0.25 },
+  { x: -0.25, y: 0.25, z: 0.25 },
+  { x: -0.25, y: -0.25, z: 0.25 },
+  { x: 0.25, y: -0.25, z: 0.25 },
 
-//   { x: 0.25, y: 0.25, z: -0.25 },
-//   { x: -0.25, y: 0.25, z: -0.25 },
-//   { x: -0.25, y: -0.25, z: -0.25 },
-//   { x: 0.25, y: -0.25, z: -0.25 },
-// ];
+  { x: 0.25, y: 0.25, z: -0.25 },
+  { x: -0.25, y: 0.25, z: -0.25 },
+  { x: -0.25, y: -0.25, z: -0.25 },
+  { x: 0.25, y: -0.25, z: -0.25 },
+];
 let goCube;
 //THE PENGER
-import pengerModel from "./penger.js";
-const { vs, fs } = pengerModel();
+// import pengerModel from "./penger.js";
+// const { vs, fs } = pengerModel();
 
 function tZ({ x, y, z }, tz) {
   return { x, y, z: z + tz };
@@ -76,8 +76,8 @@ function line(p1, p2) {
 }
 function frame() {
   const dt = 1 / FPS;
-  // dz += 1 * dt;
-  angle += 1 * Math.PI * dt;
+  dz += 1 * dt;
+  angle += 4 * Math.PI * dt;
   clear();
 
   // vs.forEach((v) => draw(screen(project(tZ(rotate_on_y(v, angle), dz)))));
