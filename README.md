@@ -1,6 +1,6 @@
 # One Formula That Demystifies 3D Graphics
 
-[![screenshot](./imgs/screenshot-400.png)](https://tsoding.github.io/formula/)
+[![screenshot](./image.png)](https://tsoding.github.io/formula/)
 
 This repository contains a simple, from-scratch implementation of a 3D perspective projection engine using pure JavaScript and HTML Canvas. It is based on a single mathematical formula and was inspired by the work of Tsoding.
 
