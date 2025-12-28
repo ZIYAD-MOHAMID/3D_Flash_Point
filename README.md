@@ -1,17 +1,17 @@
-# "One Formula That Demystifies 3D Graphics"
+# One Formula That Demystifies 3D Graphics
 
-The Source Code from this YouTube Video:
+This repository contains a simple, from-scratch implementation of a 3D perspective projection engine using pure JavaScript and HTML Canvas. It is based on a single mathematical formula and was inspired by the work of Tsoding.
 
-## Quick Start
+_Big shoutout to [Tsoding](https://www.youtube.com/@TsodingDaily)._
+
+## Video Source
+
+Watch the original explanation here:
+[![Video Thumbnail](https://i.ytimg.com/vi/qjWkNZ0SXfo/hqdefault.jpg)](https://www.youtube.com/watch?v=qjWkNZ0SXfo)
+
+## Quick Start (Run Locally)
 
 ```console
-$ git clone https://github.com/ZIYAD-MOHAMID/3D_Flash_Point.git
-$ cd formula
-$ iexplore.exe ./index.html
+$git clone [https://github.com/ZIYAD-MOHAMID/3D_Flash_Point.git$](https://github.com/ZIYAD-MOHAMID/3D_Flash_Point.git$) cd formula
+$ # Open the index.html file in your preferred web browser.
 ```
-
-The repo is also deployed to GitHub Pages: [https://tsoding.github.io/formula/](https://tsoding.github.io/formula/)
-
-## Model
-
-The model is provided by [https://github.com/Max-Kawula/penger-obj](https://github.com/Max-Kawula/penger-obj)
