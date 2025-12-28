@@ -5,7 +5,7 @@ The Source Code from this YouTube Video:
 ## Quick Start
 
 ```console
-$ git clone https://github.com/tsoding/formula
+$ git clone https://github.com/ZIYAD-MOHAMID/3D_Flash_Point.git
 $ cd formula
 $ iexplore.exe ./index.html
 ```
